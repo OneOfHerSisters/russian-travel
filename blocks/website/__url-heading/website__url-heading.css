@@ -1,0 +1,19 @@
+.website__url-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .website__url-heading {
+    line-height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .website__url-heading {
+    margin-left: 16px;
+  }
+}

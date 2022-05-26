@@ -1,0 +1,19 @@
+.website__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-decoration-line: underline;
+  color: #fff;
+}
+
+.website__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .website__link {
+    margin-left: 16px;
+  }
+}
