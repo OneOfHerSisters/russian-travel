@@ -3,6 +3,7 @@
   margin: 0 auto auto auto;
   padding-top: 28px;
   max-height: 52px;
+  min-width: 288px;
   display: flex;
   justify-content: space-between;
 }
