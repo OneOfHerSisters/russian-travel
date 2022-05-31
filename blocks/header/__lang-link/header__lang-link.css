@@ -4,7 +4,7 @@
   font-weight: 400;
   color: #fff;
   margin: 0;
-  padding: 18px 0 0 0;
+  padding: 18px 0 6px 0;
   display: inline-block;
   text-decoration: none;
   text-align: right;
@@ -23,5 +23,6 @@
     font-size: 18px;
     line-height: 111%;
     padding-top: 14px;
+    padding-bottom: 8px;
   }
 }
