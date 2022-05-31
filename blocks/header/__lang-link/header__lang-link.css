@@ -20,3 +20,7 @@
     line-height: 111%;
   }
 }
+
+.header__lang-link.selected {
+  text-decoration: underline;
+}
