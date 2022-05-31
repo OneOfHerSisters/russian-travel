@@ -12,3 +12,5 @@
 4. Методология БЭМ.
 
 ### [Ссылка на GitHub проекта](https://github.com/OneOfHerSisters/russian-travel)
+
+### [Ссылка на страницу проекта](https://oneofhersisters.github.io/russian-travel/)
