@@ -11,4 +11,4 @@
 3. Медиазапросы
 4. Методология БЭМ.
 
-### [Ссылка на GitHub проекта] (https://github.com/OneOfHerSisters/russian-travel)
+### [Ссылка на GitHub проекта](https://github.com/OneOfHerSisters/russian-travel)
