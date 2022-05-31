@@ -4,7 +4,7 @@
   font-weight: 400;
   color: #fff;
   margin: 0;
-  padding: 0;
+  padding: 18px 0 0 0;
   display: inline-block;
   text-decoration: none;
   text-align: right;
@@ -22,5 +22,6 @@
   .header__lang-link {
     font-size: 18px;
     line-height: 111%;
+    padding-top: 14px;
   }
 }
