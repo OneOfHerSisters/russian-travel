@@ -3,15 +3,12 @@
   line-height: 28px;
   font-weight: 400;
   color: #fff;
-  margin: 0;
-  padding: 18px 0 6px 0;
+  padding: 0;
+  margin: 18px 0 6px 0;
   display: inline-block;
   text-decoration: none;
   text-align: right;
-}
-
-.header__lang-link.selected {
-  text-decoration: underline;
+  transition: opacity 0.2s ease-in;
 }
 
 .header__lang-link:not(:last-child) {
@@ -25,4 +22,8 @@
     padding-top: 14px;
     padding-bottom: 8px;
   }
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
