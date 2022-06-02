@@ -4,4 +4,6 @@
   min-width: 320px;
   color: #fff;
   font-family: "Inter", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

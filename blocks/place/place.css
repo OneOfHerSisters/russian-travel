@@ -1,7 +1,7 @@
 .place {
   display: grid;
   grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
-  grid-template-rows: fit-content minmax(340px, 460px);
+  grid-template-rows: auto minmax(340px, 460px);
   grid-column-gap: 40px;
   grid-row-gap: 48px;
   margin: 0 0 80px 0;
@@ -18,10 +18,11 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-  .intro {
+  .place {
     max-width: 720px;
     align-self: center;
     grid-column-gap: 28px;
+    margin: 0 0 73px 0;
   }
 }
 
@@ -29,7 +30,7 @@
   .place {
     display: grid;
     grid-template-columns: minmax(320px, 1fr);
-    grid-template-rows: fit-content fit-content minmax(320px, 340px) fit-content;
+    grid-template-rows: auto auto minmax(320px, 340px) auto;
     grid-row-gap: 32px;
     margin: 0 0 50px 0;
   }

@@ -1,10 +1,12 @@
 .website__url-heading {
+  margin: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 170%;
   letter-spacing: 2px;
   color: #aaaaaa;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .website__url-heading {
