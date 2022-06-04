@@ -1,6 +1,7 @@
 .main__container {
   max-width: 984px;
   margin: auto;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
@@ -10,16 +11,18 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-  .intro {
+  .main__container {
     max-width: 720px;
     align-self: center;
     margin-left: 24px;
     margin-right: 24px;
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .intro {
+  .main__container {
     padding: 0 16px 0 16px;
+    margin-bottom: 64px;
   }
 }

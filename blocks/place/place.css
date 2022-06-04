@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .place {
+    grid-template-rows: auto auto;
     max-width: 720px;
     align-self: center;
     grid-column-gap: 28px;
@@ -30,7 +31,7 @@
   .place {
     display: grid;
     grid-template-columns: minmax(320px, 1fr);
-    grid-template-rows: auto auto minmax(320px, 340px) auto;
+    grid-template-rows: auto auto auto auto;
     grid-row-gap: 32px;
     margin: 0 0 50px 0;
   }
